@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Crypto Price Tracker</h1>
+      <h1>CryptoYahi</h1>
       {loading && <p>Loading...</p>}
       {error && <p className="error">{error}</p>}
       <div className="crypto-container">
